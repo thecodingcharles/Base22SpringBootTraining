@@ -65,8 +65,8 @@
 				<configuration>
 				  <skipTests>true</skipTests>
 				</configuration>
-		  </plugin>
-			<plugin>
+		   </plugin>
+			 <plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.4.9</version>
@@ -74,7 +74,7 @@
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 					<username>dockeranothercharles</username>
 					<password>tAp-zU4-BdA-t5V</password>
-					<tag>mvndocker</tag>
+					<tag>hellodocker</tag>
 					<repository>${docker.image.prefix}/${project.artifactId}</repository>
 				</configuration>
 			</plugin>
@@ -102,5 +102,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
